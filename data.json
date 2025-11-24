@@ -1,50 +1,62 @@
 [
-{
-    "nome":"JavaScript",
-    "descricao":"O JavaScript é uma linguagem de programação para Web",
-    "ano": 1995,
-    "link":"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-},
-{
-    "nome":"Python",
-    "descricao":"O Python é uma linguagem de programação da Ciências de Dados, Machine Learning e IA",
-    "ano": 1991,
-    "link":"https://docs.python.org/pt-br/3.14/"
-},
-{
-    "nome":"Java",
-    "descricao":"Java é uma linguagem de programação orientada a objetos, popular para aplicações corporativas, web e mobile (Android).",
-    "ano": 1995,
-    "link":"https://docs.oracle.com/en/java/"
-},
-{
-    "nome":"C#",
-    "descricao":"C# (C Sharp) é uma linguagem moderna e orientada a objetos desenvolvida pela Microsoft, usada principalmente com o framework .NET.",
-    "ano": 2000,
-    "link":"https://docs.microsoft.com/pt-br/dotnet/csharp/"
-},
-{
-    "nome":"C++",
-    "descricao":"C++ é uma linguagem de programação de propósito geral, conhecida por seu desempenho em jogos e software de alta performance.",
-    "ano": 1985,
-    "link":"https://isocpp.org/get-started"
-},
-{
-    "nome":"Ruby",
-    "descricao":"Ruby é uma linguagem dinâmica com foco na simplicidade e produtividade, popular pelo seu framework web Ruby on Rails.",
-    "ano": 1995,
-    "link":"https://www.ruby-lang.org/pt/"
-},
-{
-    "nome":"Go",
-    "descricao":"Go (ou Golang) é uma linguagem de programação compilada e concorrente desenvolvida pelo Google, projetada para ser simples e eficiente.",
-    "ano": 2009,
-    "link":"https://go.dev/doc/"
-},
-{
-    "nome":"Rust",
-    "descricao":"Rust é uma linguagem de programação focada em segurança de memória e concorrência, ideal para sistemas de baixo nível.",
-    "ano": 2010,
-    "link":"https://www.rust-lang.org/pt-BR/learn"
-}
+  {
+    "nome": "JavaScript",
+    "ano": "1995",
+    "descricao": "A linguagem essencial para desenvolvimento web front-end e back-end (Node.js).",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+  },
+  {
+    "nome": "Python",
+    "ano": "1991",
+    "descricao": "Popular em ciência de dados, IA, automação e backend.",
+    "link": "https://www.python.org/"
+  },
+  {
+    "nome": "Java",
+    "ano": "1995",
+    "descricao": "Linguagem robusta amplamente usada em sistemas corporativos.",
+    "link": "https://www.java.com/"
+  },
+  {
+    "nome": "C#",
+    "ano": "2000",
+    "descricao": "Desenvolvida pela Microsoft, é forte em desenvolvimento de jogos (Unity) e aplicações Windows.",
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+  },
+  {
+    "nome": "Go",
+    "ano": "2009",
+    "descricao": "Criada pelo Google, é conhecida por sua simplicidade e eficiência em programação concorrente.",
+    "link": "https://golang.org/"
+  },
+  {
+    "nome": "Swift",
+    "ano": "2014",
+    "descricao": "Linguagem da Apple para desenvolver aplicativos para iOS, macOS, watchOS e tvOS.",
+    "link": "https://developer.apple.com/swift/"
+  },
+  {
+    "nome": "Kotlin",
+    "ano": "2011",
+    "descricao": "Linguagem moderna que se tornou a preferida para desenvolvimento Android.",
+    "link": "https://kotlinlang.org/"
+  },
+  {
+    "nome": "Rust",
+    "ano": "2010",
+    "descricao": "Focada em segurança de memória e performance, ideal para sistemas de baixo nível.",
+    "link": "https://www.rust-lang.org/"
+  },
+  {
+    "nome": "TypeScript",
+    "ano": "2012",
+    "descricao": "Um superset do JavaScript que adiciona tipagem estática, melhorando a escalabilidade de projetos.",
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "nome": "PHP",
+    "ano": "1995",
+    "descricao": "Amplamente utilizada para desenvolvimento web back-end, especialmente com WordPress.",
+    "link": "https://www.php.net/"
+  }
 ]

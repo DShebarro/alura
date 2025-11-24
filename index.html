@@ -1,69 +1,46 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
-
     <title>Base de Conhecimento</title>
-  </head>
 
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
     <header>
-      <h1>Base de Conhecimento</h1>
+      <div class="header-container">
+        <h1>Base de Conhecimento</h1>
+        <button id="theme-toggle" title="Alternar tema">🌙</button>
 
-      <form id="search-form" role="search">
-        <input
-          id="search-input"
-          type="text"
-          placeholder="Digite uma linguagem de programação"
-        />
-
-        <button type="button" onclick="iniciarBusca()">Buscar</button>
-      </form>
+        <form id="search-form" role="search">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Pesquise aqui sua linguagem..."
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
     </header>
 
     <main>
-      <section class="card-container">
-        <!-- O conteúdo principal da busca aparecerá aqui -->
-
-        <article class="card">
-          <!-- <h2>JavaScript</h2>
-
-           <p>1995</p>
-
-           <p>JavaScript é um linguagem de programação</p>
-
-           <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais</a> -->
-        </article>
+      <section class="card-container" id="card-container">
+        <!-- Conteúdo gerado via script.js -->
       </section>
     </main>
 
     <footer>
       <ul>
         <li>
-          <a
-            href="https://github.com/DShebarro"
-            target="_blank"
-            rel="noopener noreferrer"
-            >GitHub</a
-          >
+          <a href="https://github.com/DShebarro" target="_blank">GitHub</a>
         </li>
-
-        <li>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Instagram</a
-          >
-        </li>
+        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
       </ul>
     </footer>
 
+    <!-- Script externo -->
     <script src="script.js"></script>
   </body>
 </html>
